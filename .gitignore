@@ -5,3 +5,5 @@
 /node_modules/
 /flask
 /.venv
+.DS_Store
+/__pycache__
