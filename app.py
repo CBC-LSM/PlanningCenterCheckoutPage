@@ -4,7 +4,7 @@ import simplejson
 import json
 from requests.auth import HTTPBasicAuth
 from collections import OrderedDict
-import settings
+import config
 from datetime import date
 
 
