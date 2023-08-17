@@ -1,0 +1,38 @@
+<html>
+<head>
+ <style>
+ body{
+   text-align: right;
+ }
+
+ h1{
+   font-size: 60px;
+   color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: inline-block;
+  margin: 2px;
+
+ }
+
+  .child {
+    text-align: right;
+    font-size: 50px;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    //float: right;
+    display: inline-block;
+  }
+ </style>
+ <meta http-equiv="refresh" content="2">
+</head>
+<body>
+  <h1>Pickup:</h1><br>
+    {% for student in students %}
+            <div class="child">{{student['first_name']}} {{student['last_name'][0]}}.</div><br>
+    {% endfor %}
+
+</body>
+</html>
