@@ -14,7 +14,7 @@ cd /Library/WebServer/PlanningCenterCheckoutPage
 
 #Create the virtual python environment
 /usr/bin/python3 -m venv PCCPVENV
-source PCCPVENV
+source ./PCCPVENV/bin/activate
 pip3 install Flask
 pip3 install requests
 pip3 install simplejson
