@@ -4,7 +4,7 @@
 /bower_components/
 /node_modules/
 /flask
-/.venv
 .DS_Store
 /__pycache__
 /config.py
+/WebFiles/config.py
