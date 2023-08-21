@@ -5,7 +5,8 @@ This app can be used to create a ProPresenter Prop to overlay checkout informati
 1. Clone the git repo onto your computer. ```git clone https://github.com/CBC-LSM/PlanningCenterCheckoutPage.git```
 3. In terminal type ```mv WebFiles/config_template.py WebFiles/config.py```
 4. Open config.py in your favorite text editor and enter your planning center API keys into the configuration file.
-5. In terminal, run ```
+5. In terminal, run
+```
 chmod 755 MacOS_Install.sh
 sudo ./MacOS_Install.sh
 ```
