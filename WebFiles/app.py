@@ -14,7 +14,7 @@ app = Flask(__name__)
 @app.route('/checkout')
 def checkout():
     checkinData = {}
-    checkinsuri = "https://api.planningcenteronline.com/check-ins/v2/check_ins?where[created_at]=" + date.today().strftime("%Y-%m-%d") + "&order=-checked_out_at&include=person&per_page" + str(config.listLength)
+    checkinsuri = "https://api.planningcenteronline.com/check-ins/v2/check_ins?where[created_at]=" + date.today().strftime("%Y-%m-%d") + "&order=-checked_out_at&include=person&per_page=" + str(config.listLength)
     try:
         uResponse = requests.get(checkinsuri, auth = HTTPBasicAuth(config.APIUser, config.APIPass), headers={'X-PCO-API-Version': '2023-04-05'})
     except requests.ConnectionError:
