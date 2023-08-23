@@ -26,7 +26,7 @@ def checkout():
         if i['attributes']['checked_out_at'] is not None:
             checkinData[i['id']] = {"checked_out_at": i['attributes']['checked_out_at'], "first_name": i['attributes']['first_name'], "last_name": i['attributes']['last_name']}
 
-    return render_template('checkout.html', students=list(checkinData.values())[config.listLength:])
+    return render_template('checkout.html', students=list(checkinData.values()))
 
 
 if __name__ == "__main__":
