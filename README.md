@@ -1,4 +1,4 @@
-# Planning Center Checout Page
+# Planning Center Checkout Page
 This app can be used to create a ProPresenter Prop to overlay checkout information from planning center on top of what you are displaying on your screen.
 
 ## Installation Instructions
