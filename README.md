@@ -12,5 +12,5 @@ sudo ./MacOS_Install.sh
 ```
 6. Your computer will restart
 7. Create a new prop in ProPresenter
-8. Add a webpage object pointed at http://127.0.0.1:8005
+8. Add a webpage object pointed at http://127.0.0.1:8005/checkout
 9. Add the prop to your playlist in ProPresenter. 
